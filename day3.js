@@ -1,10 +1,10 @@
 console.log("--- 'this' in the Global Scope ---");
-console.log("Value of 'this' outside any function:", this); // In browsers, usually 'window'; in Node.js, usually '{}'
+console.log("Value of 'this' outside any function:", this); 
 
 
 console.log("\n--- 'this' in a Regular Function Call ---");
 function regularFunction() {
-  console.log("Value of 'this' inside a regular function:", this); // In non-strict mode, usually the global object; in strict mode, 'undefined'
+  console.log("Value of 'this' inside a regular function:", this); 
 }
 regularFunction();
 
