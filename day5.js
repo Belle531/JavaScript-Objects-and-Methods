@@ -1,6 +1,6 @@
 function createPet(name, species) {
     let happiness = 50;
-    let energy = Math.floor(Math.random() * 51); // Random energy between 0 and 50
+    let energy = Math.floor(Math.random() * 51); 
   
     const play = () => {
       happiness += 10;
